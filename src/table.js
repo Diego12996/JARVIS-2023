@@ -18,8 +18,8 @@ function UsersTable() {
   function ListUsers() {
     return (
       <>
-        <Table striped bordered responsive className="text-center align-middle">
-          <thead className="table-primary" >
+        <Table striped bordered responsive className="text-center align-middle w-auto mx-auto">
+          <thead className="table-primary text-nowrap" >
             <tr>
               <th>Nombre</th>
               <th>Apellido</th>
@@ -32,7 +32,7 @@ function UsersTable() {
           </thead>
           <tbody>
             { usersOrderAge.map((user, index) => (
-              <tr key={index} className="table-info">
+              <tr key={index} className="table-info text-nowrap">
                 <td>{user.name.first}</td>
                 <td>{user.name.last}</td>
                 <td>{ user.dob.age}</td>
