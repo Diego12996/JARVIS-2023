@@ -18,9 +18,9 @@ function UsersTable() {
   function ListUsers() {
     return (
       <>
-        <Table striped bordered responsive >
+        <Table striped bordered responsive className="text-center align-middle">
           <thead className="table-primary" >
-            <tr style={{alignItems: "center"}} >
+            <tr>
               <th>Nombre</th>
               <th>Apellido</th>
               <th>Edad</th>
@@ -39,7 +39,7 @@ function UsersTable() {
                 <td>{ user.gender }</td>
                 <td>{ user.email }</td>
                 <td>{ user.nat}</td>
-                <td><img src={user.picture.thumbnail} alt="user" /></td>
+                <td><img src={user.picture.thumbnail} alt="user" className="rounded-circle" /></td>
               </tr>
             ))}
           </tbody>
