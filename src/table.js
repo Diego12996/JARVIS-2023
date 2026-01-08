@@ -18,7 +18,7 @@ function UsersTable() {
   function ListUsers() {
     return (
       <>
-        <Table striped bordered responsive className="text-center align-middle w-auto mx-auto">
+        <Table striped bordered responsive className="text-center align-middle w-auto mx-auto text-primary">
           <thead style={{backgroundColor: "#FFB6D9"}} className="text-nowrap" >
             <tr>
               <th>First Name</th>
