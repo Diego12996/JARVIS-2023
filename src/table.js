@@ -19,7 +19,7 @@ function UsersTable() {
     return (
       <>
         <Table striped bordered responsive className="text-center align-middle w-auto mx-auto text-primary">
-          <thead style={{backgroundColor: "#FFB6D9"}} className="text-nowrap" >
+          <thead style={{backgroundColor: "#FFB6D9", color: "#8B4513"}} className="text-nowrap" >
             <tr>
               <th>First Name</th>
               <th>Last Name</th>
