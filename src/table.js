@@ -18,16 +18,16 @@ function UsersTable() {
   function ListUsers() {
     return (
       <>
-        <Table striped bordered responsive className="text-center align-middle w-auto mx-auto">
+        <Table striped bordered responsive className="text-center align-middle w-auto mx-auto text-primary">
           <thead style={{backgroundColor: "#FFB6D9"}} className="text-nowrap" >
             <tr>
-              <th>Nombre</th>
-              <th>Apellido</th>
-              <th>Edad</th>
-              <th>Genero</th>
+              <th>First Name</th>
+              <th>Last Name</th>
+              <th>Age</th>
+              <th>Gender</th>
               <th>Email</th>
-              <th>Nacionalidad</th>
-              <th>Foto</th>
+              <th>Nationality</th>
+              <th>Photo</th>
             </tr>
           </thead>
           <tbody>
